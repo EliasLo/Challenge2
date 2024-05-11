@@ -1,0 +1,17 @@
+*****
+train folds are {1, 2, 3, 4} and test fold is {5}
+random wave cropping
+
+ResNet(block=ResidualBlock, layers=[2, 2, 2, 2], num_classes=config.n_classes)
+*****
+
+ 33%|#####          | 1/3 [01:11<02:22, 71.11s/ep] TrnAcc=0.078 ValAcc=0.121 TrnLoss=3.713 ValLoss=3.483 < inf --> checkpoint
+ 67%|##########     | 2/3 [02:15<01:07, 67.25s/ep] TrnAcc=0.238 ValAcc=0.231 TrnLoss=3.028 ValLoss=2.861 < 3.483 --> checkpoint
+100%|###############| 3/3 [03:20<00:00, 66.04s/ep] TrnAcc=0.346 ValAcc=0.331 TrnLoss=2.522 ValLoss=2.490 < 2.861 --> checkpoint
+100%|###############| 3/3 [03:20<00:00, 66.81s/ep]
+
+test results/2024-05-11-14-49/5
+TestAcc    0.315
+TestLoss   2.655
+dtype: float64
+
