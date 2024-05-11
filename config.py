@@ -12,9 +12,9 @@ test_folds = [2,3] #[1, 2, 3, 4, 5]
 val_size = .30  # could be changed # 0.2 original
 
 
-# model_constructor = "ResNet(block=ResidualBlock, layers=[2, 2, 2, 2], num_classes=config.n_classes)"
+model_constructor = "ResNet(block=ResidualBlock, layers=[2, 2, 2, 2], num_classes=config.n_classes)"
 # model_constructor = "ResNet(block=ResidualBlock, layers=[3, 4, 6, 3], num_classes=config.n_classes)"
-model_constructor = "ResNet_3(BasicBlock_2, [3, 3, 3, 2])"
+#model_constructor = "ResNet_3(BasicBlock_2, [3, 3, 3, 2])"
 
 # model checkpoints loaded for testing
 test_checkpoints = ['terminal.pt', 'best_val_loss.pt'] #['terminal.pt'] 
