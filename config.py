@@ -17,7 +17,7 @@ val_size = .30  # could be changed # 0.2 original
 model_constructor = "ResNet_3(BasicBlock_2, [3, 3, 3, 2])"
 
 # model checkpoints loaded for testing
-test_checkpoints = ['terminal.pt']  # ['terminal.pt', 'best_val_loss.pt']
+test_checkpoints = ['terminal.pt', 'best_val_loss.pt'] #['terminal.pt'] 
 # experiment folder used for testing (result from cross validation training)
 #test_experiment = 'results/2024-04-01-00-00'
 test_experiment = 'results/sample-run'
